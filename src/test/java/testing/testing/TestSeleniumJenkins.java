@@ -16,8 +16,8 @@ public class TestSeleniumJenkins extends TestCase {
 		driver.get("https://www.google.com/");
 		System.out.println(driver.getTitle());
 		assertEquals("Google", driver.getTitle());
-        driver.manage().window().maximize();
-		Thread.sleep(3000);
+       // driver.manage().window().maximize();
+		// Thread.sleep(5000);
 		driver.close();
 	}
 
